@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Laberinto Mónica García Rosa e Isabel María Jiménez Cumbreras</title>
+    <meta charset="utf-8">
+
+    <script src="js/qrcode.js"></script>
+	<script src="js/hand.minified-1.2.js"></script>
+	<script src="js/cannon.js"></script>
+	<script src="js/oimo.js"></script>
+	<script src="js/babylon.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />
+    
+</head>
+<body>
+    <div name="cambioMapa"><input type="file" id="cargaMapa" name="cargador"/></div>
+    <div name="IniciarLaberinto"><input type="button" id="inicio" name="iniciar" value="Comenzar Juego"/></div>
+    <div name="cambioVista"><input type="button" id="vistaSuperior" name="vistaSup" value="Vista superior/Vista normal"></div>
+    <div name="ayuda"><input type="button" id="botonAyuda" value="Instrucciones del juego"/></div>
+    <div name="reloj" id="reloj">00:00:00</div>
+    <div name="autores" id="autoras">
+        <h2>Autoras: Mónica García Rosa - Isabel María Jiménez Cumbreras</h2>
+    </div>
+    <div name="descargaMapas" id="mapas">
+        Descarga aquí mapas de ejemplo y la plantilla para realizar mapas personalizados
+        <a href="mapas/mapas.rar" target="_blank"> [Mapas + plantilla] </a>
+    </div>
+    <canvas id="canvas"></canvas>
+    <script src="js/laberinto.js"></script>
+</body>
+</html>
