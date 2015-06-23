@@ -1,0 +1,68 @@
+html, body, #canvas {
+    		width: 100%;
+    		height: 100%;
+    		padding: 0;
+    		margin: 0;
+    		overflow: hidden;
+    		font-size: 16px;
+    		touch-action: none;
+		}
+
+
+
+/*Botones*/
+
+/*Boton de vista aérea*/
+#cargaMapa, #inicio, #vistaSuperior, #botonAyuda{
+	display: block;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	padding: .5em 2em .55em;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+	border-bottom: 1px solid rgba(0,0,0,0.25);
+	margin-right: 2em;
+	margin-left: 1em;
+	margin-top: 1em;
+	float: left;
+}
+
+#reloj, #mapas, #autoras{
+	display: block;
+	outline: none;
+	text-align: center;
+	float: left;
+	margin-left: 1em;
+}
+
+#autoras h2{
+	font-size: 1.2em;
+	font-family: Arial;
+}
+
+#reloj{
+	padding: 0.5em;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0 auto;
+	position: relative;
+	 
+	-webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+	box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
+}
+
+#mapas{
+	padding: 0.5em;
+	font-size: 1.1em;
+	font-family: Arial;
+}
+
+a{
+	text-decoration: none;
+	font-size: 0.8em;
+	color: black;
+}
